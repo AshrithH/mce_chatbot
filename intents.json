@@ -1,0 +1,153 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting, How can I help you?",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "Courses",
+      "patterns": [
+        "Which are the courses offered?",
+        "Which courses are offered?",
+        "What programs are offered?",
+        "Which branches are available?",
+        "courses offered",
+        "courses available"
+      ],
+      "responses": [ "->Civil  Engineering.->Mechanical  Engineering. >Electrical and Electronics. >Electronics and Communication Engg. >Electronics and Instrumental Engg. >Computer Science Engg. >A I & M L Engineering ** . >CS & Business System **. >Information Science Engg. (**-New branches)"  ]
+    },
+    
+    {
+      "tag": "documents",
+      "patterns": [
+        "What documents are needed for the admission?",
+        "Could you provide me with a list of the necessary paperwork or documentation needed for admission?",
+        "Can you clarify the required documents for the admission process?"
+      ],
+      "responses": [
+        "Copy of KCET application form 2023  \n1.Copy of KCET admit card 2023 \n2.KCET application fee payment proof \n3.Class 10/SSLC mark sheet & certificate \n4.Class 12/2nd PUC mark sheet & certificate \n5.7 years study certificate countersigned by the concerned BEO / DDPI \n6.Recent passport size photograph (two copies) \n7.Income certificate \n8.Rural study certificate \n9.Caste certificate "
+      ]
+    },
+    {
+      "tag": "admission process",
+      "patterns": [
+        "What is the admission process? "
+      ],
+      "responses": [
+        "In order to confirm the admission, candidates need to report at the allotted college on mentioned date and time. Candidates are advised to carry the other required documents along with the KCET counselling allotment letter to the college for the purpose of verification."
+      ]
+    },
+    
+    
+    {
+      "tag": "fees structure management",
+      "patterns": [
+        "What is fees structure for management seat? ",
+        "How much does the management seat cost in terms of fees?",
+        "I'd like to inquire about the fees structure for the management seat. Can you provide me with the details?",
+        "What are the fees associated with the management seat?",
+        "fees for management seat",
+        "fees for management quota"
+        
+      ],
+      "responses": [
+        "Total Tution Fees for the program - Management Quota (Rs. In Lakhs)\n1. Civil Engg - 5,20,000/-\n2. Mechanical Engg - 4,00,000/-\n3. Electronics & Instrumental Engg - 4,00,000/-\n4. Electrical & Electronics Engg - 5,20,000/-\n5. Computer Science & Engg - 9,60,000/-\n6. Artificial Intelligence & Machine Learning - 7,20,000/-\n7. Computer Science & Business System - 7,20,000/-\n8. Information Science & Engg - 7,20,000/-\n9. Electronics & Communication Engg - 6,00,000/-\n"
+      ]
+    },
+    
+      {
+      "tag": "fees structure for kcet",
+      "patterns": ["What is the fees structure for kcet seat", "What is the fees structure for cet seat", "What is the fees structure for govt seat?","What is the fees structure for government seat"],
+      "responses": [
+        "For Aided Courses\n1. GM/2A/2B/3A/3B including SC/ST with annual income > Rs 10 Lakhs - Rs 38,200/-\n2. SNQ - Rs 21,700/-\n3. SC/ST (annual income upto Rs 2.5 Lakh) - Rs 500/-\n4. SC/ST (annual income upto Rs 10 Lakhs) - Rs 21,700/-\n \nFor Unaided courses\n1. GM/2A/2B/3A/3B including SC/ST with annual income > Rs 10 Lakhs - Rs 91,796/-/-\n2. SNQ - Rs 31,110/-\n3. SC/ST (annual income upto Rs 2.5 Lakh) - Rs 500/-\n4. SC/ST (annual income upto Rs 10 Lakhs) - Rs 31,110/-\n"
+      ]
+    },
+    
+    {
+      "tag": "fees structure for comedk",
+      "patterns": ["what is the fees structure for comedk seat", "what is the fees structure for admission through comed-k ", "comed-k fees structure", "what is the tuition fees for comed-k seat?"],
+      "responses": ["Total tuition fees per annum for all courses through COMED-K \nRs 2,01,960\n\nTotal Tuition Fees for 4 years  -  Rs 8,07,804 "]
+    },
+    
+     {
+      "tag": "cutoffs for civil",
+      "patterns": ["what are the cutoffs for civil branch","kcet cutoff for civil branch","cet cutoff for civil","kcet cut off for civil"],
+      "responses": ["Cutoffs(R2-CET2022) for CIVIL (aided)\n1G - 1,37,542\n2AG - 1,72,924\n2BG - 1,03,104\n3AG - 96,696\n3BG - 1,29,037\nGM - 94,517\nSCG - 1,72,459\nSTG - 1,34,830\n\nCutoffs(R2-CET2022) for CIVIL (Unaided)\n1G - 1,56,119\n2AG - 1,42,597\n2BG - ---\n3AG - 1,13,191\n3BG - 1,33,440\nGM - 1,11,020\nSCG - 1,45,592\nSTG - 1,70,038"]
+    },
+    
+    {
+      "tag": "cutoffs for ec",
+      "patterns": ["what are the cutoffs for EC branch","kcet cutoff for EC branch","cet cutoff for electronics branch","kcet cut off for e&c","cutoff for electonics and communication branch"],
+      "responses": ["Cutoffs(R2-CET2022) for ELECTRONICS (aided)\n1G - 42,366\n2AG - 28,718\n2BG - 29,181\n3AG - 24,809\n3BG - 26,059\nGM - 23,284\nSCG - 65,685\nSTG - 38,565\n\nCutoffs(R2-CET2022) for ELECTRONICS (Unaided)\n1G - 36,382\n2AG - 30,338\n2BG - ---\n3AG - 26,848\n3BG - ---\nGM - 26,682\nSCG - 56,993\nSTG - 45,529"]
+    },
+    
+    {
+      "tag": "cutoffs for electrical",
+      "patterns": ["what are the cutoffs for electrical branch","kcet cutoff for electrical branch","cet cutoff for ee","kcet cut off for electrical ad electronics engineering"],
+      "responses": ["Cutoffs(R2-CET2022) for ELECTRICAL (aided)\n1G - 71,705\n2AG - 54,387\n2BG - 75,388\n3AG - 49,991\n3BG - 59,741\nGM - 47,648\nSCG - 96,587\nSTG - 56,814\n\nCutoffs(R2-CET2022) for ELECTRICAL (Unaided)\n1G - 84,551\n2AG - 60,018\n2BG - 75,644\n3AG - 56,984\n3BG - 52,966\nGM - 51,306\nSCG - 1,04,802\nSTG - 1,41,631"]
+    },
+    
+    {
+      "tag": "cutoffs for mech",
+      "patterns": ["what are the cutoffs for mechanical branch","kcet cutoff for mechanical branch","cet cutoff for mech","kcet cut off for mechanical"],
+      "responses": ["Cutoffs(R2-CET2022) for MECHANICAL (aided)\nGM - 94,517\n\nCutoffs(R2-CET2022) for MECHANICAL (Unaided)\nGM - 1,72,117"]
+    },
+    
+    {
+      "tag": "cutoffs for ca cs",
+      "patterns": ["what are the cutoffs for AI ML branch","kcet cutoff for AIML branch","cet cutoff for AI&ML","kcet cut off for AI and ML"],
+      "responses": ["Cutoffs(R2-CET2022) for AI & ML (Unaided)\n2AG - 21,034\n2BG - 20,814\n3BG - 22,960\nGM - 17,528\nSCG - 44,539\nSTG - ---\n"]
+    },
+    
+    {
+      "tag": "cutoffs for cs&bs",
+      "patterns": ["what are the cutoffs for computer science and business system branch","kcet cutoff for cs&bs branch","cet cutoff for cs & bs","kcet cut off for cs and bs branch"],
+      "responses": ["Cutoffs(R2-CET2022) for CS & Business System (Unaided)\n2AG - 32,407\n2BG - ---\n3AG - ---\n3BG - ---\nGM - 27,134\nSCG - 79,207\nSTG - 64,672\n\n"]
+    },
+    
+    {
+      "tag": "cutoffs for cs",
+      "patterns": ["what are the cutoffs for computer science branch","kcet cutoff for cs branch","cet cutoff for cs","kcet cut off for computer science and engineering"],
+      "responses": ["Cutoffs(R2-CET2022) for Computer Science and Engineering (Unaided)\n1G - 20,028\n2AG - 18,513\n2BG - 23,698\n3AG - 13,254\n3BG - 15,775\nGM - 12,871\nSCG - 41,923\nSTG - 31,407\n\n"]
+    },
+    
+    {
+      "tag": "cutoffs for EI",
+      "patterns": ["what are the cutoffs for EI branch","kcet cutoff for E&I branch","cet cutoff for Electronics and Instrumental Engineering","kcet cut off for EI branch"],
+      "responses": ["Cutoffs(R2-CET2022) for EI (Unaided)\n1G - 1,04,779\n2AG - 99,665\n2BG - 87,450\n3AG - 85,383\n3BG - 84,869\nGM - 80,513\nSCG - 1,68,059\nSTG - ---\n\n"]
+    },
+    {
+      "tag": "cutoffs for IS",
+      "patterns": ["what are the cutoffs for Information Science branch","kcet cutoff for IS branch","cet cutoff for ISE","kcet cut off for information science and engineering"],
+      "responses": ["Cutoffs(R2-CET2022) for Information Science (Unaided)\n1G - 30,648\n2AG - 27,499\n2BG - 21,033\n3AG - 21,033\n3BG - 22,262\nGM - 21,011\nSCG - 50,059\nSTG - 42,461\n\n"]
+    }
+    
+  ]
+}
